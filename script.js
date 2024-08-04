@@ -1,3 +1,8 @@
+function url() {
+  fbq("track", "Purchase");
+  location.href = "https://chat.whatsapp.com/DEwTmeThw93BqGjowUxCfE";
+}
+
 var header = document.getElementById("header");
 let allow = true;
 window.addEventListener("scroll", function () {
