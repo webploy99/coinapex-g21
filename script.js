@@ -1,6 +1,7 @@
 function url() {
   fbq("track", "Purchase");
-  location.href = "https://chat.whatsapp.com/DEwTmeThw93BqGjowUxCfE";
+  fbq("track", "SubmitApplication");
+  location.href = "https://chat.whatsapp.com/Dwi6eFMmhaLHUG9ZUJNJA7";
 }
 
 var header = document.getElementById("header");
